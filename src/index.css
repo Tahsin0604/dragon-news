@@ -1,0 +1,43 @@
+.btn-danger,
+.btn-dark {
+  border-radius: 0 !important;
+}
+a {
+  text-decoration: none;
+}
+.left-nav-link-active,
+.left-nav-link {
+  padding: 6px 60px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  display: grid;
+}
+.left-nav-link-active:hover,
+.left-nav-link:hover {
+  color: black;
+}
+
+.left-nav-link-active {
+  background: silver;
+  color: black;
+}
+.left-nav-link {
+  color: slategray;
+}
+p {
+  margin: 0;
+}
+.form-width {
+  width: 25%;
+}
+@media only screen and (max-width: 991.98px) {
+  .form-width {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .form-width {
+    width: 100%;
+  }
+}
